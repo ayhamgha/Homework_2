@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ayham/Desktop/Homework/homework2/task_1/bin",
+  "command": "/usr/bin/c++      -std=gnu++17 -o CMakeFiles/task_1.dir/guessing_game.cpp.o -c /home/ayham/Desktop/Homework/homework2/task_1/guessing_game.cpp",
+  "file": "/home/ayham/Desktop/Homework/homework2/task_1/guessing_game.cpp"
+}
+]

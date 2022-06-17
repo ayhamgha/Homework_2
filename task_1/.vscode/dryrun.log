@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ayham/Desktop/Homeworks/homework2/task_1'
+make: Leaving directory '/home/ayham/Desktop/Homeworks/homework2/task_1'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

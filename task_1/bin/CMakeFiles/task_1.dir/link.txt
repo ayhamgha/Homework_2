@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/task_1.dir/guessing_game.cpp.o  -o task_1 
