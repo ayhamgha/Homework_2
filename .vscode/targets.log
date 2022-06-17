@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 17 09:07:00 2022
+# Make data base, printed on Fri Jun 17 11:54:26 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ SNAP_DATA = /var/snap/code/98
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:46353
+JOURNAL_STREAM = 8:49302
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -73,7 +73,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 ROS_ETC_DIR = /opt/ros/noetic/etc/ros
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=de7fffc485344bdede81ce2162a9d8cf
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
@@ -123,7 +123,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = ddfeae64a2c5499eb5d64e343f0127a9
+INVOCATION_ID = 0cec2aa476e44439a84601e6da5fa4da
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/98/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -137,7 +137,7 @@ ROS_DISTRO = noetic
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 89720
+GIO_LAUNCHED_DESKTOP_FILE_PID = 97186
 # automatic
 %F = $(notdir $%)
 # environment
@@ -209,7 +209,7 @@ SVGA_VGPU10 = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ef9de894-7069-45fa-861f-059065ef0581.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d7e6f78f-e810-4de2-8411-18de1a21f1e6.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -255,8 +255,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = tr_TR.UTF-8
 # environment
-LC_IDENTIFICATION = tr_TR.UTF-8
-# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -275,7 +273,7 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+DBUS_STARTER_BUS_TYPE = session
 # automatic
 ^F = $(notdir $^)
 # default
@@ -289,9 +287,10 @@ CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
 # default
+ 
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-GJS_DEBUG_OUTPUT = stderr
+LC_IDENTIFICATION = tr_TR.UTF-8
 # default
 .RECIPEPREFIX := 
 # environment
@@ -299,10 +298,11 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 89765
+VSCODE_PID = 97234
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=de7fffc485344bdede81ce2162a9d8cf
 # variable set hash-table stats:
- 
-# Load=144/1024=14%, Rehash=0, Collisions=24/166=14%
+# Load=144/1024=14%, Rehash=0, Collisions=23/166=14%
 
 # Pattern-specific Variable Values
 
@@ -310,9 +310,9 @@ VSCODE_PID = 89765
 
 # Directories
 
-# . (device 2053, inode 3543215): 7 files, no impossibilities.
+# . (device 2053, inode 3543215): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -362,12 +362,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 124 B / avg = 8 B
-# current buf: size = 8162 B / used = 124 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 129 B / avg = 8 B
+# current buf: size = 8162 B / used = 129 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Fri Jun 17 09:07:00 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Fri Jun 17 11:54:26 2022
 
  
